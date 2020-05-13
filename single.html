@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hipstyle</title>
+  <link rel="stylesheet" href="css\font-awesome.min.css">
+  <link rel="stylesheet" href="css\owl.carousel.min.css">
+  <link rel="stylesheet" href="css\owl.theme.default.min.css">
+  <link rel="stylesheet" href="css\uikit.min.css">
+  <link rel="stylesheet" href="css\nice-select.css">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="shortcut icon" href="img/faviconhip.png">
+</head>
+<body onload="myFunction()">
+<div id="loading">
+  <div class="load">
+    <span>Loading...</span>
+  </div>
+</div>
+
+<section id="header_area_2" class="py-4">
+  <nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container">
+      <div class="site_logo">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <ul class="navbar-nav text-capitalize mx-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">about</a>
+        </li>
+        <li class="nav-item ">
+          <a href="service.html" class="nav-link">service</a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a href="javascript:void(0)" class="nav-link dropdown-toggle">blog</a>
+          <div class="dropdown_menu">
+            <a href="blog.html" class="nav-link">blog</a>
+            <a href="single.html" class="nav-link">Single blog</a>
+            <div></div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascript:void(0)" class="nav-link dropdown-toggle">page</a>
+          <div class="dropdown_menu">
+            <a href="team.html" class="nav-link">team</a>
+            <a href="price.html" class="nav-link">price</a>
+            <div></div>
+          </div>
+
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">contact</a>
+        </li>
+      </ul>
+      <div class="mobile-menu d-block d-md-none">
+        <span onclick="showNav()"><i class="fa fa-bars"></i></span>
+        <div id="myNav" class="overley">
+          <a onclick="hideNav()" href="javascript:void(0)" class="closeBtn">
+            &times;
+          </a>
+          <div class="overley-content">
+            <ul class="text-light text-capitalize text-center list-unstyled">
+              <li class="nav-item">
+                <a onclick="hideNav()" href="index.html" class="nav-link">home</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="about.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="service.html" class="nav-link">service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">blog</a>
+                <div class="dropdown-menu justify-content-center bg-light">
+                  <a onclick="hideNav()" href="blog.html" class="nav-link dropdown-item text-dark">blog</a>
+                  <a onclick="hideNav()" href="single.html" class="nav-link dropdown-item text-dark">Single blog</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">pages</a>
+                <div class="dropdown-menu justify-content-center bg-light">
+                  <a onclick="hideNav()" href="team.html" class="nav-link dropdown-item text-dark">team</a>
+                  <a onclick="hideNav()" href="price.html" class="nav-link dropdown-item text-dark">price</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="contact.html" class="nav-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="middle-header text-center">
+    <div class="container">
+      <div class="row justify-items-center">
+        <div class="col-lg-12">
+          <div class="banner_text">
+            <h1>Single blog</h1>
+            <div class="change_page">
+              <p>Home <i class="pl-2 fa fa-angle-right"></i><i class="fa fa-angle-right"></i> <span class="pl-2">single Blog</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="blog-section" class="py-5 bg-light">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-lg-8">
+        <div class="row">
+          <div class="col-12">
+            <div class="single_blog pb-5">
+              <div class="blog_thumb">
+                <img src="img/blog/single_blog_1.png" alt="">
+                <div class="blog_item_date">
+                  <h4 class="mb-0">15</h4>
+                  <span>Jan</span>
+                </div>
+              </div>
+              <div class="blog_text mt-5 px-5">
+              <h3>  <a href="single.html">Google inks pact for new 35-storey office</a></h3>
+
+                <p>That dominion stars lights dominion divide years for fourth have don't stars is that he earth it first without heaven in place seed it second morning saying.</p>
+              </div>
+              <div class="blog_icons px-5 pt-2">
+                <i class="fa fa-user"></i>
+                <span class="pr-3"><a href="#">Travel,Lifestyle</a>
+                </span>
+                <span class="pr-3">|</span>
+                <i class="fa fa-comments"></i>
+                <span><a href="#">03 Comments</a></span>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-12">
+          <p class="">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower </p>
+          <p class="">MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually </p>
+          <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower </p>
+          <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower to actually sit through a self-imposed MCSE training. who has the willpower to actually </p>
+          <div class="like_area pt-4">
+            <div class="like_info float-left">
+              <i class="fa fa-heart"></i>
+              <span class="pl-2"> Lily and 4 people like this</span>
+            </div>
+            <div class="like_icons float-right">
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-twitter
+                    "></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 py-5">
+          <div class="comments_area">
+            <h3>06 Comments</h3>
+            <div class="comment-list pt-4">
+              <div class="single-comment justify-content-between d-flex">
+                <div class="user justify-content-between d-flex">
+                  <div class="thumb">
+                    <img src="img/comment/comment_1.png" alt="">
+                  </div>
+                  <div class="desc">
+                    <p class="comment">
+                      Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                      Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex align-items-center ml-3">
+                        <h5>
+                          <a href="#">Emilly Blunt</a>
+                        </h5>
+                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                      </div>
+                      <div class="reply-btn">
+                        <button class="btn">REPLY</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class=" pt-3 single-comment justify-content-between d-flex">
+                <div class="user justify-content-between d-flex">
+                  <div class="thumb">
+                    <img src="img/comment/comment_2.png" alt="">
+                  </div>
+                  <div class="desc">
+                    <p class="comment">
+                      Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                      Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex align-items-center ml-3">
+                        <h5>
+                          <a href="#">Emilly Blunt</a>
+                        </h5>
+                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                      </div>
+                      <div class="reply-btn">
+                        <button class="btn">REPLY</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-comment justify-content-between d-flex py-3">
+                <div class="user justify-content-between d-flex">
+                  <div class="thumb">
+                    <img src="img/comment/comment_3.png" alt="">
+                  </div>
+                  <div class="desc">
+                    <p class="comment">
+                      Multiply sea night grass fourth day sea lesser rule open subdue female fill which them
+                      Blessed, give fill lesser bearing multiply sea night grass fourth day sea lesser
+                    </p>
+                    <div class="d-flex justify-content-between">
+                      <div class="d-flex align-items-center ml-3">
+                        <h5>
+                          <a href="#">Emilly Blunt</a>
+                        </h5>
+                        <p class="date">December 4, 2017 at 3:12 pm </p>
+                      </div>
+                      <div class="reply-btn">
+                        <button class="btn">REPLY</button>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 py-5">
+          <div class="write_comment">
+            <h3>Leave a Reply</h3>
+            <form action="" class="pt-4">
+              <div class="form-group">
+                <textarea name="name" rows="8" cols="80" class="form-control" placeholder="Write Commment" required></textarea>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="website" class="form-control form-control-lg" placeholder="Website" required>
+              </div>
+              <div class="pt-4">
+                <button class="btn btn-lg btn-primary">Send Comment</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="right-sibe">
+        <div class="row">
+          <div class="col-12">
+            <div class="single_blog_search p-4">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control form-control-lg" placeholder="Search Keyword">
+                  <i class="fa fa-search"></i>
+                  <br>
+                  <button class="btn btn-outline-dark btn-lg btn-block">SEARCH</button>
+                </div>
+
+              </form>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="single_blog_category p-4">
+              <h4 class="text-success">Category</h4>
+              <hr>
+              <ul class="list-unstyled pt-4">
+                <li><a href="#">Resaurant food <span>(37)</span></a></li>
+                <hr>
+                <li><a href="#">Travel News<span>(10)</span></a></li>
+                <hr>
+                <li><a href="#">Modern techology <span>(03)</span></a></li>
+                <hr>
+                <li><a href="#">Product<span>(11)</span></a></li>
+                <hr>
+                <li><a href="#">Health Care <span>(21)</span></a></li>
+                <hr>
+                <li><a href="#">Inspiration <span>(21)</span></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="single_blog_recent_post p-4">
+              <h3 class="text-success">Recent Post</h3>
+              <hr>
+              <ul class="list-unstyled pt-4">
+                <li>
+                  <div class="d-flex">
+                    <div class="thumb mr-3">
+                      <img src="img/post/post_1.png" alt="">
+                    </div>
+                    <div class="text pt-3">
+                      <h4 class="mb-0"><a href="#" class="text-success">From life was you fish...</a></h4>
+                      <small>January 12,2019</small>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex pt-4">
+                    <div class="thumb mr-3">
+                      <img src="img/post/post_2.png" alt="">
+                    </div>
+                    <div class="text pt-3">
+                      <h4 class="mb-0"><a href="#" class="text-success">From life was you fish...</a></h4>
+                      <small>January 12,2019</small>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex pt-4">
+                    <div class="thumb mr-3">
+                      <img src="img/post/post_3.png" alt="">
+                    </div>
+                    <div class="text pt-3">
+                      <h4 class="mb-0"><a href="#" class="text-success">From life was you fish...</a></h4>
+                      <small>January 12,2019</small>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="d-flex pt-4">
+                    <div class="thumb mr-3">
+                      <img src="img/post/post_4.png" alt="">
+                    </div>
+                    <div class="text pt-3">
+                      <h4 class="mb-0"><a href="#" class="text-success">From life was you fish...</a></h4>
+                      <small>January 12,2019</small>
+                    </div>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="single_blog_clouds p-4">
+              <h3 class="text-success">Tag Clouds</h3>
+              <hr>
+              <div class="d-flex pt-3">
+                <div class="cloud"><a href="#">project</a></div>
+                <div class="cloud"><a href="#">love</a></div>
+                <div class="cloud"><a href="#">techonolgy</a></div>
+              </div>
+              <div class="d-flex pt-3">
+                <div class="cloud"><a href="#">travel</a></div>
+                <div class="cloud"><a href="#">restaurant</a></div>
+                <div class="cloud"><a href="#">life style</a></div>
+              </div>
+              <div class="d-flex pt-3">
+                <div class="cloud"><a href="#">design</a></div>
+                <div class="cloud"><a href="#">illustration</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="single_blog_instagram p-4">
+              <h3 class="text-success">Instagram Feeds</h3>
+              <hr>
+              <div class="d-flex pt-4" uk-lightbox>
+                <a href="img/post/post_5.png">
+                <img src="img/post/post_5.png" class="img-fluid" alt=""></a>
+
+                <a href="img/post/post_6.png">
+                <img src="img/post/post_6.png" class="img-fluid ml-2" alt=""></a>
+
+                <a href="img/post/post_7.png">
+                <img src="img/post/post_7.png" class="img-fluid ml-2" alt=""></a>
+              </div>
+
+              <div class="d-flex pt-4" uk-lightbox>
+                <a href="img/post/post_8.png">
+                <img src="img/post/post_8.png" class="img-fluid" alt=""></a>
+
+                <a href="img/post/post_9.png">
+                <img src="img/post/post_9.png" class="img-fluid ml-2" alt=""></a>
+
+                <a href="img/post/post_10.png">
+                <img src="img/post/post_10.png" class="img-fluid ml-2" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="single_blog_newslatter p-4">
+            <h3 class="text-success">Newsletter</h3>
+              <form action="" class="pt-4">
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter emails">
+                </div>
+                <div class="form-group">
+                  <button class="btn btn-danger btn-lg btn-block text-uppercase">subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination justify-content-center py-5">
+      <ul class="pagination ">
+        <li class="page-item">
+          <a href="#" class="page-link"><i class="fa fa-angle-left"></i></a>
+        </li>
+        <li class="page-item active">
+          <a href="#" class="page-link">1</a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link">2</a>
+        </li><li class="page-item">
+          <a href="#" class="page-link">3</a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link">4</a>
+        </li>
+        <li class="page-item">
+          <a href="#" class="page-link"><i class="fa fa-angle-right"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="footer_area" class="py-5">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-lg-4">
+        <div class="single_footer_widget">
+          <h3>About Us</h3>
+          <p class="py-3">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. Realize that things </p>
+           <p>The more effort you put into improving your skills, the bigger the stil now</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single_footer_widget px-0 px-lg-5 py-5 py-lg-0">
+          <h3>Contact us</h3>
+          <div class="d-flex py-3">
+            <div class="home_address">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="home_text pl-4">
+              <span>Los angeles, United States</span>
+              <p>659, Rocky beach bullevard, santa monica, Rocky beach, USA.</p>
+            </div>
+          </div>
+          <div class="d-flex py-3">
+            <div class="home_mobile">
+              <i class="fa fa-mobile"></i>
+            </div>
+            <div class="mobile_text pl-4">
+              <span>+44 6532 986 652</span>
+              <p>Mon to Fri 9am to 6 pm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single_footer_widget">
+          <h3>Newsletter</h3>
+          <p class="py-3">Stay updated with our latest trends The more effort you put into improving your skills, the bigger the payoff you will get realize that things. </p>
+          <div class="text-left pt-4">
+            <form action="">
+              <div class="input-group pr-5">
+                <input type="email" class="form-control form-control-lg" placeholder="Your Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-danger btn-lg"><i class="fa fa-angle-right text-white"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <button id="topBtn" title="Scroll Top Button"><i class="fa fa-arrow-up"></i></button>
+</div>
+<script src="js\jquery.min.js"></script>
+<script src="js\popper.min.js"></script>
+<script src="js\bootstrap.min.js"></script>
+<script src="js\owl.carousel.min.js"></script>
+<script src="js\typer.min.js"></script>
+<script src="js\uikit.min.js"></script>
+<script src="js\uikit-icons.min.js"></script>
+<script src="js\jquery.nice-select.min.js"></script>
+<script src="js\main.js"></script>
+</body>
+</html>

@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hipstyle</title>
+  <link rel="stylesheet" href="css\font-awesome.min.css">
+  <link rel="stylesheet" href="css\owl.carousel.min.css">
+  <link rel="stylesheet" href="css\owl.theme.default.min.css">
+  <link rel="stylesheet" href="css\uikit.min.css">
+  <link rel="stylesheet" href="css\nice-select.css">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="shortcut icon" href="img/faviconhip.png">
+</head>
+<body onload="myFunction()">
+<div id="loading">
+  <div class="load">
+    <span>Loading...</span>
+  </div>
+</div>
+<section id="header_area" class="py-4">
+  <nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container">
+      <div class="site_logo">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <ul class="navbar-nav text-capitalize mx-auto">
+        <li class="nav-item active">
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">about</a>
+        </li>
+        <li class="nav-item">
+          <a href="service.html" class="nav-link">service</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascript:void(0)" class="nav-link dropdown-toggle">blog</a>
+          <div class="dropdown_menu">
+            <a href="blog.html" class="nav-link">blog</a>
+            <a href="single.html" class="nav-link">Single blog</a>
+            <div></div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascript:void(0)" class="nav-link dropdown-toggle">page</a>
+          <div class="dropdown_menu">
+            <a href="team.html" class="nav-link">team</a>
+            <a href="price.html" class="nav-link">price</a>
+            <div></div>
+          </div>
+
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">contact</a>
+        </li>
+      </ul>
+      <div class="mobile-menu d-block d-md-none">
+        <span onclick="showNav()"><i class="fa fa-bars"></i></span>
+        <div id="myNav" class="overley">
+          <a onclick="hideNav()" href="javascript:void(0)" class="closeBtn">
+            &times;
+          </a>
+          <div class="overley-content">
+            <ul class="text-light text-capitalize text-center list-unstyled">
+              <li class="nav-item">
+                <a onclick="hideNav()" href="index.html" class="nav-link">home</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="about.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="service.html" class="nav-link">service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">blog</a>
+                <div class="dropdown-menu justify-content-center bg-light">
+                  <a onclick="hideNav()" href="blog.html" class="nav-link dropdown-item text-dark">blog</a>
+                  <a onclick="hideNav()" href="single.html" class="nav-link dropdown-item text-dark">Single blog</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">pages</a>
+                <div class="dropdown-menu justify-content-center bg-light">
+                  <a onclick="hideNav()" href="team.html" class="nav-link dropdown-item text-dark">team</a>
+                  <a onclick="hideNav()" href="price.html" class="nav-link dropdown-item text-dark">price</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="contact.html" class="nav-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="middle-header">
+    <div class="container">
+      <div class="row justify-items-center">
+        <div class="col-lg-6">
+          <div class="banner_text">
+            <div class="banner_text_inner">
+              <h5>Feel like home</h5>
+              <h1 class="">Good Look Guaranteed</h1>
+              <p>Divide give Dominion wont deep he them seed thing open sixth beast don't yea very it meat yielding for air in without one upon it without, his creepeth tree gathering behold and, greater have given deep his</p>
+              <div class="">
+                <button class="btn1">Book Now</button>
+                <button class="btn2 ">Contact Us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about_area" class="py-5">
+  <div class="container-fluid pt-5">
+    <div class="row pt-5 align-items-center justify-content-center">
+      <div class="col-lg-6 col-md-5">
+        <div class="single_about">
+          <div class="about_thumb">
+            <img src="img/about_us_1.png" alt="" class="img1">
+            <img src="img/about_us_2.png" alt="" class="img2">
+            <img src="img/about_us_3.png" alt="" class="img3 d-none d-lg-block">
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-7 offset-lg-1 offset-md-1">
+        <div class="about_us px-4">
+          <h5>about us</h5>
+          <h1>Connect with your dream style</h1>
+          <p>Seed spirit replenish cattle one moved air created. Them fill dont be fed isnt to he shall god good spirit they are the. Hath Itself their second ifruitful a moving their creature living every i replenish land and had hen lesser for their good quality products</p>
+          <p class="my-3">Seed spirit replenish cattle one moved air created. Them fill dont be fed isnt to he shall god good spirit they are the. Hath Itself their second ifruitful a moving their creature living every</p>
+          <button class="btn btn-primary">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="service" class="py-5 text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <img src="img/section_tittle_icon.png" alt="" class="img-fluid">
+        <h1 class="font-weight-bold mt-2">Service Expectation</h1>
+        <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+      </div>
+    </div>
+    <div class="row pt-5 my-3">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/service/single_service_1.png" alt="" class="img-fluid">
+            <h3>Stylish Hair Cut</h3>
+            <p>Good morning forth gathering does god gathering man and had moveth there dry so dominion rule divided had</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/service/single_service_2.png" alt="" class="img-fluid">
+            <h3>Wedding Hair</h3>
+            <p>Good morning forth gathering does god gathering man and had moveth there dry so dominion rule divided had</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/service/single_service_3.png" alt="" class="img-fluid">
+            <h3>Color & Hair Wash</h3>
+            <p>Good morning forth gathering does god gathering man and had moveth there dry so dominion rule divided had</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="offer_area" class="py-5">
+  <div class="container-fluid">
+    <div class="row justify-content-between">
+      <div class="col-lg-12">
+        <div class="single_offer_part text-center">
+          <div class="single_offer">
+            <img src="img/offer_img_1.png" alt="" class="">
+          </div>
+          <div class="offer_text_hover">
+            <img src="img/icon/cutter.svg" alt="">
+            <h3>Best Equipment</h3>
+            <p>Winged day grass creepeth us second signs</p>
+          </div>
+        </div>
+        <div class="single_offer_part text-center">
+          <div class="single_offer">
+            <img src="img/offer_img_2.png" alt="" class="">
+          </div>
+          <div class="offer_text_hover">
+            <img src="img/icon/cutter.svg" alt="">
+            <h3>Best Price</h3>
+            <p>Winged day grass creepeth us second signs</p>
+          </div>
+        </div>
+        <div class="single_offer_part text-center">
+          <div class="single_offer">
+            <img src="img/offer_img_3.png" alt="" class="">
+          </div>
+          <div class="offer_text_hover">
+            <img src="img/icon/cutter.svg" alt="">
+            <h3>Fitness Equipment</h3>
+            <p>Winged day grass creepeth us second signs</p>
+          </div>
+        </div>
+        <div class="single_offer_part text-center">
+          <div class="single_offer">
+            <img src="img/offer_img_4.png" alt="" class="">
+          </div>
+          <div class="offer_text_hover">
+            <img src="img/icon/cutter.svg" alt="">
+            <h3>Fitness Equipment</h3>
+            <p>Winged day grass creepeth us second signs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="pricing_area" class="text-center py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <img src="img/section_tittle_icon.png" alt="" class="img-fluid">
+        <h1 class="font-weight-bold mt-2">Pricing Plan</h1>
+        <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+      </div>
+    </div>
+    <div class="row py-5 text-left justify-content-center">
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_1.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Cut</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_2.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2 clearfix">
+              <h5>Hair Wash</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_3.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Color</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_4.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Shave</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_5.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Straight</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_6.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2 clearfix">
+              <h5>Men’s Facial</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_7.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Shampoo</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_8.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Wedding Style</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="testimonial" class="py-5 text-center">
+  <div class="container">
+    <div class="row justify-content-center align-items-center py-5">
+      <div class="col-lg-10 pt-5">
+        <div class="testimonial_active owl-carousel owl-theme">
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="artist" class="py-5 my-5 text-center">
+  <div class="container mb-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <img src="img/section_tittle_icon.png" alt="" class="img-fluid">
+        <h1 class="font-weight-bold mt-2">Meet Our Artist</h1>
+        <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+      </div>
+    </div>
+    <div class="row pt-5 mt-4">
+      <div class="col-lg-4 col-md-6 mb-5 mb-md-0 mb-lg-0">
+        <div class="single_artist_main">
+          <div class="single_artist">
+            <div class="artist_thumb">
+              <img src="img/artist/artist_1.png" alt="" class="img-fluid">
+              <div class="artist_text text-center">
+                <h5>Adam Billiard</h5>
+                <small>Chef Master</small>
+                <div class="icon_box">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                      <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-5 mb-md-0 mb-lg-0">
+        <div class="single_artist_main">
+          <div class="single_artist">
+            <div class="artist_thumb">
+              <img src="img/artist/artist_2.png" alt="" class="img-fluid">
+              <div class="artist_text">
+                <h5>Fred Macyard</h5>
+                <small>Chef Master</small>
+                <div class="icon_box">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                      <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="single_artist_main">
+          <div class="single_artist">
+            <div class="artist_thumb">
+              <img src="img/artist/artist_3.png" alt="" class="img-fluid">
+              <div class="artist_text">
+                <h5>Justin Stuard</h5>
+                <small>Chef Master</small>
+                <div class="icon_box">
+                  <ul class="list-inline">
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#">
+                      <i class="fa fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact_area" class="my-5">
+    <div class="row justify-content-end">
+      <div class="col-lg-7 col-md-12">
+        <div class="form_inner">
+        <form action="" class="py-5">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Name *">
+                </div>
+              </div>
+              <div class="col-md-6 pt-5 pt-md-0">
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Email *">
+                </div>
+              </div>
+
+              <div class="col-md-6 pt-5">
+                <div class="form-group">
+                  <select class="form-control" name="" id="select">
+                    <option value="">My Service *</option>
+                    <option value="">My Service 1</option>
+                    <option value="">My Service 2</option>
+                    <option value="">My Service 3</option>
+                    <option value="">My Service 4</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6 pt-5">
+                <div class="form-group">
+                  <input type="tel" class="form-control" placeholder="Phone Number *">
+                </div>
+              </div>
+              <div class="col-md-6 pt-5">
+                <div class="form-group">
+                  <input type="date" class="form-control" placeholder="Date *">
+                </div>
+              </div>
+              <div class="col-md-6 pt-5">
+                <div class="form-group">
+                  <select class="form-control" name="" id="select">
+                    <option value="">Time *</option>
+                    <option value="">8.30 PM</option>
+                    <option value="">8.30 PM</option>
+                    <option value="">8.30 PM</option>
+                    <option value="">8.30 PM</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-12 pt-5">
+                <div class="form-group">
+                  <textarea class="form-control" name="" id="" cols="30" rows="3" placeholder="Your Note *"></textarea>
+                </div>
+              </div>
+              <div class="pt-5 px-3">
+                <button class="btn btn-lg btn-danger" type="submit">Make an Appointment</button>
+              </div>
+            </div>
+        </form>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section id="news_area" class="py-5 text-center">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <img src="img/section_tittle_icon.png" alt="" class="img-fluid">
+        <h1 class="font-weight-bold mt-2">Latest Style News</h1>
+        <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+      </div>
+    </div>
+    <div class="row pt-5 my-3">
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/service/single_service_1.png" alt="" class="img-fluid">
+            <div class="catagorize py-4">
+              <a href="#">art, illustration</a>
+              <span class="text-muted px-2">|</span>
+              <small>March 30, 2019</small>
+            </div>
+            <h3><a href="#">There our you divide itseld..</a>
+            </h3>
+            <p>Man moveth days wherein you're that made years he after us light let moved.</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/service/single_service_2.png" alt="" class="img-fluid">
+            <div class="catagorize py-4">
+              <a href="#">art, illustration</a>
+              <span class="text-muted px-2">|</span>
+              <small>March 30, 2019</small>
+            </div>
+            <h3><a href="#">One which won two divide..</a>
+            </h3>
+            <p>Man moveth days wherein you're that made years he after us light let moved.</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/service/single_service_3.png" alt="" class="img-fluid">
+            <div class="catagorize py-4">
+              <a href="#">art, illustration</a>
+              <span class="text-muted px-2">|</span>
+              <small>March 30, 2019</small>
+            </div>
+            <h3><a href="#">There our you divide itseld..</a>
+            </h3>
+            <p>Man moveth days wherein you're that made years he after us light let moved.</p>
+            <button class="btn btn-dark">Read More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="footer_area" class="py-5 mt-5">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-lg-4">
+        <div class="single_footer_widget">
+          <h3>About Us</h3>
+          <p class="py-3">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. Realize that things </p>
+           <p>The more effort you put into improving your skills, the bigger the stil now</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single_footer_widget px-5">
+          <h3>Contact us</h3>
+          <div class="d-flex py-3">
+            <div class="home_address">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="home_text pl-4">
+              <span>Los angeles, United States</span>
+              <p>659, Rocky beach bullevard, santa monica, Rocky beach, USA.</p>
+            </div>
+          </div>
+          <div class="d-flex py-3">
+            <div class="home_mobile">
+              <i class="fa fa-mobile"></i>
+            </div>
+            <div class="mobile_text pl-4">
+              <span>+44 6532 986 652</span>
+              <p>Mon to Fri 9am to 6 pm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single_footer_widget">
+          <h3>Newsletter</h3>
+          <p class="py-3">Stay updated with our latest trends The more effort you put into improving your skills, the bigger the payoff you will get realize that things. </p>
+          <div class="text-left pt-4">
+            <form action="">
+              <div class="input-group pr-5">
+                <input type="email" class="form-control form-control-lg" placeholder="Your Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-danger btn-lg"><i class="fa fa-angle-right text-white"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <button id="topBtn" title="Scroll Top Button"><i class="fa fa-arrow-up"></i></button>
+</div>
+<script src="js\jquery.min.js"></script>
+<script src="js\popper.min.js"></script>
+<script src="js\bootstrap.min.js"></script>
+<script src="js\owl.carousel.min.js"></script>
+<script src="js\typer.min.js"></script>
+<script src="js\uikit.min.js"></script>
+<script src="js\uikit-icons.min.js"></script>
+<script src="js\jquery.nice-select.min.js"></script>
+<script src="js\main.js"></script>
+</body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hipstyle</title>
+  <link rel="stylesheet" href="css\font-awesome.min.css">
+  <link rel="stylesheet" href="css\owl.carousel.min.css">
+  <link rel="stylesheet" href="css\owl.theme.default.min.css">
+  <link rel="stylesheet" href="css\uikit.min.css">
+  <link rel="stylesheet" href="css\nice-select.css">
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+  <link rel="stylesheet" href="css\style.css">
+  <link rel="shortcut icon" href="img/faviconhip.png">
+</head>
+<body onload="myFunction()">
+<div id="loading">
+  <div class="load">
+    <span>Loading...</span>
+  </div>
+</div>
+<section id="header_area_2" class="py-4">
+  <nav class="navbar navbar-dark navbar-expand-md">
+    <div class="container">
+      <div class="site_logo">
+        <a href="index.html" class="navbar-brand">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <ul class="navbar-nav text-capitalize mx-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">home</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">about</a>
+        </li>
+        <li class="nav-item ">
+          <a href="service.html" class="nav-link">service</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascript:void(0)" class="nav-link dropdown-toggle">blog</a>
+          <div class="dropdown_menu">
+            <a href="blog.html" class="nav-link">blog</a>
+            <a href="single.html" class="nav-link">Single blog</a>
+            <div></div>
+          </div>
+        </li>
+        <li class="nav-item dropdown active">
+          <a href="javascript:void(0)" class="nav-link dropdown-toggle">page</a>
+          <div class="dropdown_menu">
+            <a href="team.html" class="nav-link">team</a>
+            <a href="price.html" class="nav-link">price</a>
+            <div></div>
+          </div>
+
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">contact</a>
+        </li>
+      </ul>
+      <div class="mobile-menu d-block d-md-none">
+        <span onclick="showNav()"><i class="fa fa-bars"></i></span>
+        <div id="myNav" class="overley">
+          <a onclick="hideNav()" href="javascript:void(0)" class="closeBtn">
+            &times;
+          </a>
+          <div class="overley-content">
+            <ul class="text-light text-capitalize text-center list-unstyled">
+              <li class="nav-item">
+                <a onclick="hideNav()" href="index.html" class="nav-link">home</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="about.html" class="nav-link">about</a>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="service.html" class="nav-link">service</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">blog</a>
+                <div class="dropdown-menu justify-content-center bg-light">
+                  <a onclick="hideNav()" href="blog.html" class="nav-link dropdown-item text-dark">blog</a>
+                  <a onclick="hideNav()" href="single.html" class="nav-link dropdown-item text-dark">Single blog</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-toggle="dropdown">pages</a>
+                <div class="dropdown-menu justify-content-center bg-light">
+                  <a onclick="hideNav()" href="team.html" class="nav-link dropdown-item text-dark">team</a>
+                  <a onclick="hideNav()" href="price.html" class="nav-link dropdown-item text-dark">price</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a onclick="hideNav()" href="contact.html" class="nav-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="middle-header text-center">
+    <div class="container">
+      <div class="row justify-items-center">
+        <div class="col-lg-12">
+          <div class="banner_text">
+            <h1>Pricing Plan</h1>
+            <div class="change_page">
+              <p>Home <i class="pl-2 fa fa-angle-right"></i><i class="fa fa-angle-right"></i> <span class="pl-2">Price Plan</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing_area" class="text-center py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-7">
+        <img src="img/section_tittle_icon.png" alt="" class="img-fluid">
+        <h1 class="font-weight-bold mt-2">Pricing Plan</h1>
+        <p>Good morning forth gathering doesn't god gathering man and had moveth there dry sixth dominion rule divided behold after had he did not move .</p>
+      </div>
+    </div>
+    <div class="row py-5 text-left justify-content-center">
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_1.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Cut</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_2.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2 clearfix">
+              <h5>Hair Wash</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_3.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Color</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_4.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Shave</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_5.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Hair Straight</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_6.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2 clearfix">
+              <h5>Men’s Facial</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_7.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Shampoo</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 pb-5">
+        <div class="single_price d-flex pl-5">
+            <div class="price_thumb">
+              <img src="img/pricing_img/pricing_img_8.png" alt="" class="img-fluid">
+            </div>
+            <div class="price_text pl-4 pt-2">
+              <h5>Wedding Style</h5>
+              <h6 class="text-danger">$10.00</h6>
+              <p>Their days lesser and every firmament</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonial" class="py-5 text-center">
+  <div class="container">
+    <div class="row justify-content-center align-items-center py-5">
+      <div class="col-lg-10 pt-5">
+        <div class="testimonial_active owl-carousel owl-theme">
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+          <div class="item">
+            <i class="fa fa-quote-left text-danger"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quidem asperiores veniam dolor eius harum, dignissimos inventore esse vero nemo?</p>
+            <blockquote>
+            <i>
+              Mike Dorney &mdash; CEO and Co-Founder
+            </i>
+            </blockquote>
+            <img src="img/client/client_1.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="footer_area" class="py-5">
+  <div class="container">
+    <div class="row py-5">
+      <div class="col-lg-4">
+        <div class="single_footer_widget">
+          <h3>About Us</h3>
+          <p class="py-3">Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills, the bigger the payoff you will get. Realize that things </p>
+           <p>The more effort you put into improving your skills, the bigger the stil now</p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single_footer_widget px-0 px-lg-5 py-5 py-lg-0">
+          <h3>Contact us</h3>
+          <div class="d-flex py-3">
+            <div class="home_address">
+              <i class="fa fa-home"></i>
+            </div>
+            <div class="home_text pl-4">
+              <span>Los angeles, United States</span>
+              <p>659, Rocky beach bullevard, santa monica, Rocky beach, USA.</p>
+            </div>
+          </div>
+          <div class="d-flex py-3">
+            <div class="home_mobile">
+              <i class="fa fa-mobile"></i>
+            </div>
+            <div class="mobile_text pl-4">
+              <span>+44 6532 986 652</span>
+              <p>Mon to Fri 9am to 6 pm.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="single_footer_widget">
+          <h3>Newsletter</h3>
+          <p class="py-3">Stay updated with our latest trends The more effort you put into improving your skills, the bigger the payoff you will get realize that things. </p>
+          <div class="text-left pt-4">
+            <form action="">
+              <div class="input-group pr-5">
+                <input type="email" class="form-control form-control-lg" placeholder="Your Email Address">
+                <div class="input-group-append">
+                  <button class="btn btn-danger btn-lg"><i class="fa fa-angle-right text-white"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container">
+  <button id="topBtn" title="Scroll Top Button"><i class="fa fa-arrow-up"></i></button>
+</div>
+<script src="js\jquery.min.js"></script>
+<script src="js\popper.min.js"></script>
+<script src="js\bootstrap.min.js"></script>
+<script src="js\owl.carousel.min.js"></script>
+<script src="js\typer.min.js"></script>
+<script src="js\uikit.min.js"></script>
+<script src="js\uikit-icons.min.js"></script>
+<script src="js\jquery.nice-select.min.js"></script>
+<script src="js\main.js"></script>
+</body>
+</html>
